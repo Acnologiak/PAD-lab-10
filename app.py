@@ -9,8 +9,7 @@
 
     '''temp = pathlib.PosixPath
     pathlib.PosixPath = pathlib.WindowsPath'''
-
-    import pathlib
+    
     temp = platform.system()
     if temp == 'Windows':
         print(1)
